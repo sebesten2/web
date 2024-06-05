@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.menuCSS3 ul {
+    
+    justify-content: center ;/* en esto ponemos los times al centro */
+    display: flex;/* estamos invocando un flex*/
+    padding: 0;/* no va a ver relleno*/
+    margin: 0;/* no va a ver margen*/
+    list-style: none;/* quitamos los puntos de las listas*/
+}
+.lista{
+list-style: none;
+text-align: left;
+font-size: 15px;
+color: #ffffff;
+text-decoration: solid;
+border: 1px solid #00ff15;
+background-color: #242724;
+color: white;
+width: 325px;
+border-radius: 20px;
+
+
+
+
+}
+.nombre{
+text-align: center;
+color: #00ff15;
+
+}
+.h1cosas{
+    border: 2PX solid #00ff15;/* aqui ponemos 2px de borde solido de color verde  */
+text-align: center;/* ponemos el h1 al centro*/
+color: #ffffff;/* cambiamos el texto de color blanco*/
+border-color: #00ff15;/* ponemos el borde color verde*/
+border-radius: 10px;/* aqui establesemos el redondeo*/
+background-color: #5e5e5e;/* aqui cambiamos el color del fondo*/
+padding-right: 50PX;/* aqui desimos que los las letras se vallan a la izquierda*/
+
+}
+.menuCSS3 a {
+    
+    cursor: cell;/* al pasar el mous el raton se convierte en una celda*/
+    border: 1PX solid #242724;/* aqui cambiamos el color del border y lo ponemos solido*/
+    display: block;/* aqui invocamos un bloque*/
+    padding: 30px ;/* aqui va a ver un relleno de 30px*/
+    background-color: #868686;/* el color del fondo va a ser de color gris*/
+    text-decoration: none;/* aqui quitamos la linea azul del "a"*/
+    color: #000000;/* aqui cambiamos el color de la letra a color negro*/
+    border-color: #00ff15;/* aqui cambiamos el color del borde a verde*/
+    
+}
+.menuCSS3 a:hover {
+    background-color: #a5a09f;/* cada vez que pasamos el mous en un item se va a iluminar en gris con blanco*/
+
+}
+.menuCSS3 ul li ul {
+    display: none;/* aqui estamos dando a entender que si no se pasa el mous el display va a desaparecer el "ul","li"*/
+}
+.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+    display: block;/* esto lo que va a ocasionar es la lista no ordenada "ul" sigue inmediatamente a un enlace "a" cuando se pasa el cursor sobre un enlace 
+    dentro de una lista no ordenada dentro de un elemento de lista "li" cuando se pasa el cursor sobre la lista no ordenada esto invocando un bloque*/
+}
+body{
+ background-color: #2e2d2d;
+    font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+background-image: url("https://images.unsplash.com/photo-1607128849509-bdccb1b58d09?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmVncm8lMjB5JTIwZ3Jpc3xlbnwwfHwwfHx8MA%3D%3D");
+background-size: 1300px;
+}
+.parrafos{
+
+    display: flex;
+   position: sticky;
+
+}
+.grupo{
+    border: 1px solid #00ff15;
+    background-color: #242724;
+    margin-right: 15px;
+    color: white;
+    border-radius: 20px;
+   
+
+
+}
+.docente{
+    border-radius: 20px;
+    border: 1px solid #00ff15;
+    background-color: #242724;
+    color: white;
+margin-left: 75%;
+}
